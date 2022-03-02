@@ -13,30 +13,30 @@ const Work = () => {
   const projects = [
     {
       name: 'first',
-      title: 'Modern UI/UX Website',
+      title: 'Fast delivery Website',
       description: 'A Modern UI/UX website',
-      projectLink: '',
-      codeLink: 'https://github.com',
+      projectLink: 'https://faster-delivery.netlify.app/',
+      codeLink: 'https://github.com/tdark23/Fast-Delivery',
       imgUrl: images.about04,
-      tags: ['UI/UX', 'ALL'],
+      tags: ['Websites', 'ALL'],
     },
     {
       name: 'second',
-      title: 'Reastaurant Website',
-      description: 'A Modern UI/UX website',
-      projectLink: '',
-      codeLink: 'https://github.com',
+      title: 'Hintekk Transport App',
+      description: 'A Modern React App',
+      projectLink: 'https://transport-app.netlify.app/',
+      codeLink: 'https://github.com/tdark23/HintekkcodingChallenge-TedMbang-',
       imgUrl: images.about01,
-      tags: ['UI/UX', 'ALL'],
+      tags: ['Web App', 'ALL'],
     },
     {
       name: 'third',
-      title: 'Cool Mobile App',
-      description: 'Tinder clone in React Native',
-      projectLink: '',
-      codeLink: 'https://github.com',
+      title: 'Promote Brand',
+      description: 'Cool Brand Promotion Website',
+      projectLink: 'https://brand-promotion.netlify.app/',
+      codeLink: 'https://github.com/tdark23/Promote',
       imgUrl: images.about03,
-      tags: ['Mobile App', 'ALL'],
+      tags: ['UI/UX', 'ALL'],
     },
     {
       name: 'first',
@@ -49,21 +49,30 @@ const Work = () => {
     },
     {
       name: 'second',
-      title: 'Reastaurant Website',
-      description: 'A Modern UI/UX website',
-      projectLink: '',
-      codeLink: 'https://github.com',
+      title: 'Christmas Website',
+      description: 'A Modern Christmas Shop website',
+      projectLink: 'https://x-mas-shop.netlify.app/',
+      codeLink: 'https://github.com/tdark23/Christmas-site',
       imgUrl: images.about01,
-      tags: ['UI/UX', 'ALL'],
+      tags: ['Websites', 'ALL'],
     },
     {
       name: 'third',
-      title: 'Cool Mobile App',
-      description: 'Tinder clone in React Native',
-      projectLink: '',
-      codeLink: 'https://github.com',
+      title: 'Corona tracker',
+      description: 'Cool Covid-19 tracker App',
+      projectLink: 'https://covidd-track-app.netlify.app/',
+      codeLink: 'https://github.com/tdark23/corona-tracker',
       imgUrl: images.about03,
-      tags: ['Mobile App', 'ALL'],
+      tags: ['Web App', 'ALL'],
+    },
+    {
+      name: 'third',
+      title: 'Food order app',
+      description: 'Cool React app',
+      projectLink: 'https://camerfood-order-app.netlify.app',
+      codeLink: 'https://github.com/tdark23/Food-order-app',
+      imgUrl: images.about03,
+      tags: ['Web App', 'ALL'],
     },
   ]
 
@@ -89,7 +98,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
 
       <div id="home" className="app__work-filter">
-        {['UI/UX', 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+        {['UI/UX', 'Web App', 'Websites', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -161,3 +170,4 @@ export default AppWrap(
   'work',
   'app__primarybg',
 );
+
