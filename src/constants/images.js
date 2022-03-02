@@ -41,7 +41,24 @@ import gojo from '../assets/gojo.jpg'
 import bruce from '../assets/bruce.jpg'
 import hashirama from '../assets/hashirama.png'
 
+import creative from '../assets/creative.png'
+import corona from '../assets/corona.png'
+import christmas from '../assets/christmas.png'
+import foodorder from '../assets/foodorder.png'
+import promote from '../assets/promote.png'
+import transport from '../assets/transport.png'
+import delivery from '../assets/delivery.png'
+import travel from '../assets/travel.png'
+
 export default {
+  creative,
+  corona,
+  christmas,
+  foodorder,
+  promote,
+  transport,
+  delivery,
+  travel,
   hashirama,
   bruce,
   madara,
