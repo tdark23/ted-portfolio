@@ -17,8 +17,8 @@ const Work = () => {
       description: 'A Modern UI/UX website',
       projectLink: 'https://faster-delivery.netlify.app/',
       codeLink: 'https://github.com/tdark23/Fast-Delivery',
-      imgUrl: images.about04,
-      tags: ['Websites', 'ALL'],
+      imgUrl: images.delivery,
+      tags: ['Landing Page', 'ALL'],
     },
     {
       name: 'second',
@@ -26,7 +26,7 @@ const Work = () => {
       description: 'A Modern React App',
       projectLink: 'https://transport-app.netlify.app/',
       codeLink: 'https://github.com/tdark23/HintekkcodingChallenge-TedMbang-',
-      imgUrl: images.about01,
+      imgUrl: images.transport,
       tags: ['Web App', 'ALL'],
     },
     {
@@ -35,17 +35,17 @@ const Work = () => {
       description: 'Cool Brand Promotion Website',
       projectLink: 'https://brand-promotion.netlify.app/',
       codeLink: 'https://github.com/tdark23/Promote',
-      imgUrl: images.about03,
+      imgUrl: images.promote,
       tags: ['UI/UX', 'ALL'],
     },
     {
       name: 'first',
-      title: 'Modern UI/UX Website',
-      description: 'A Modern UI/UX website',
-      projectLink: '',
-      codeLink: 'https://github.com',
-      imgUrl: images.about04,
-      tags: ['UI/UX', 'ALL'],
+      title: 'Food order app',
+      description: 'A Modern React Food order app',
+      projectLink: 'https://camerfood-order-app.netlify.app',
+      codeLink: 'https://github.com/tdark23/Food-order-app',
+      imgUrl: images.foodorder,
+      tags: ['Web App', 'ALL'],
     },
     {
       name: 'second',
@@ -53,8 +53,8 @@ const Work = () => {
       description: 'A Modern Christmas Shop website',
       projectLink: 'https://x-mas-shop.netlify.app/',
       codeLink: 'https://github.com/tdark23/Christmas-site',
-      imgUrl: images.about01,
-      tags: ['Websites', 'ALL'],
+      imgUrl: images.christmas,
+      tags: ['Landing Page', 'ALL'],
     },
     {
       name: 'third',
@@ -62,7 +62,7 @@ const Work = () => {
       description: 'Cool Covid-19 tracker App',
       projectLink: 'https://covidd-track-app.netlify.app/',
       codeLink: 'https://github.com/tdark23/corona-tracker',
-      imgUrl: images.about03,
+      imgUrl: images.corona,
       tags: ['Web App', 'ALL'],
     },
     {
@@ -71,7 +71,7 @@ const Work = () => {
       description: 'Cool Web development agency website',
       projectLink: 'https://web-dev-agency.netlify.app',
       codeLink: 'https://github.com/tdark23/web-development-agency',
-      imgUrl: images.about03,
+      imgUrl: images.creative,
       tags: ['UI/UX', 'ALL'],
     },
     {
@@ -80,8 +80,8 @@ const Work = () => {
       description: 'Cool Tourism agency website',
       projectLink: 'https://paradise-agency.netlify.app/',
       codeLink: 'https://github.com/tdark23/tourism',
-      imgUrl: images.about03,
-      tags: ['Websites', 'ALL'],
+      imgUrl: images.travel,
+      tags: ['Landing Page', 'ALL'],
     },
   ]
 
@@ -107,7 +107,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
 
       <div id="home" className="app__work-filter">
-        {['UI/UX', 'Web App', 'Websites', 'All'].map((item, index) => (
+        {['UI/UX', 'Web App', 'Landing Page', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
