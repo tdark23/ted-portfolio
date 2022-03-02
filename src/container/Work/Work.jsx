@@ -67,12 +67,21 @@ const Work = () => {
     },
     {
       name: 'third',
-      title: 'Food order app',
-      description: 'Cool React app',
-      projectLink: 'https://camerfood-order-app.netlify.app',
-      codeLink: 'https://github.com/tdark23/Food-order-app',
+      title: 'Creative Agency',
+      description: 'Cool Web development agency website',
+      projectLink: 'https://web-dev-agency.netlify.app',
+      codeLink: 'https://github.com/tdark23/web-development-agency',
       imgUrl: images.about03,
-      tags: ['Web App', 'ALL'],
+      tags: ['UI/UX', 'ALL'],
+    },
+    {
+      name: 'third',
+      title: 'Travel',
+      description: 'Cool Tourism agency website',
+      projectLink: 'https://paradise-agency.netlify.app/',
+      codeLink: 'https://github.com/tdark23/tourism',
+      imgUrl: images.about03,
+      tags: ['Websites', 'ALL'],
     },
   ]
 
@@ -170,4 +179,3 @@ export default AppWrap(
   'work',
   'app__primarybg',
 );
-
