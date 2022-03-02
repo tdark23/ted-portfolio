@@ -35,7 +35,6 @@ const Testimonial = () => {
       FeedBack: "Great Job, would recommend ! Without doubt one of the most talented programmers out there.  I always go back to Ted when I'm out of my depth and he's never failed to deliver what I ask for. Smart, trustworthy and professional. You won't be disappointed.",
     },
   ]
-  const [testimonials, setTestimonials] = useState(testi);
 
   const brand = [
     {
@@ -74,16 +73,16 @@ const Testimonial = () => {
       _id: '7',
     },
   ]
-  const [brands, setBrands] = useState(brand);
+  
 
   const handleClick = (index) => {
     setCurrentIndex(index);
   };
 
-  const test = testimonials[currentIndex]
+  const test = testi[currentIndex]
   return (
     <>
-      {testimonials.length && (
+      {testi.length && (
         <>
           <div id='testimonials' className="app__testimonial-item app__flex">
             <img src={test.imgUrl} alt={test.name} />
@@ -97,11 +96,11 @@ const Testimonial = () => {
           </div>
 
           <div className="app__testimonial-btns app__flex">
-            <div className="app__flex" onClick={() => handleClick(currentIndex === 0 ? testimonials.length - 1 : currentIndex - 1)}>
+            <div className="app__flex" onClick={() => handleClick(currentIndex === 0 ? testi.length - 1 : currentIndex - 1)}>
               <HiChevronLeft />
             </div>
 
-            <div className="app__flex" onClick={() => handleClick(currentIndex === testimonials.length - 1 ? 0 : currentIndex + 1)}>
+            <div className="app__flex" onClick={() => handleClick(currentIndex === testi.length - 1 ? 0 : currentIndex + 1)}>
               <HiChevronRight />
             </div>
           </div>
@@ -109,7 +108,7 @@ const Testimonial = () => {
       )}
 
       <div className="app__testimonial-brands app__flex">
-        {brands.map((brand) => (
+        {brand.map((brand) => (
           <motion.div
             whileInView={{ opacity: [0, 1] }}
             transition={{ duration: 0.5, type: 'tween' }}
