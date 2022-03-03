@@ -10,7 +10,7 @@ const About = () => {
   const abouts = [
     {
       title: 'Frontend Development',
-      description: 'I can build beatiful and functional websites',
+      description: 'I can build beautiful and functional websites',
       imgUrl: images.about01,
     },
     {
@@ -25,7 +25,7 @@ const About = () => {
     },
     {
       title: 'MERN Stack',
-      description: "I can manage both  client and server side of your app",
+      description: "I can manage both the client and the server structures of your app",
       imgUrl: images.about04,
     },
   ]
@@ -33,7 +33,7 @@ const About = () => {
 
   return (
     <>
-      <h2 className="head-text">I Know that <span>Good Apps</span> <br />means  <span>Good Business</span></h2>
+      <h2 className="head-text"><span>Good Apps</span> <br />means  <span>Good Business</span></h2>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
