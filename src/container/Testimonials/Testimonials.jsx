@@ -10,30 +10,30 @@ import { images } from '../../constants';
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const testi = [
-    {
-      name: 'Paul',
-      company: 'Meta',
-      imgUrl: images.madara,
-      FeedBack: 'Ted is just an awesome developer. From the start of the project, through to completion, He supported us and exceeded our expectations in every way. Not only was our experience personal and friendly, his ability to identify and present our key messages in an imaginative and creative way gave us a huge amount of confidence in him',
-    },
-    {
-      name: 'Joel',
-      company: 'Google',
-      imgUrl: images.gojo,
-      FeedBack: "Ted was recommended to me by a mutual friend as a web developer. We discussed my requirements fully before going ahead with anything and he put together a package for me that met all my needs. I never felt pushed or pressured and the whole thing from start to finish was stress free and supportive. The website when completed completely surpassed all my expectations and I am totally thrilled. Any tweaks and edits that were needed were minimal and done quickly.",
-    },
-    {
-      name: 'Cho',
-      company: 'Amazo',
-      imgUrl: images.bruce,
-      FeedBack: "Ted is just an awesome developer,and he's a great help managing a very out of date website. Everything we ask him to do is done quickly and efficiently, we would be lost without him.",
-    },
-    {
-      name: 'Yann',
-      company: 'Netflix',
-      imgUrl: images.hashirama,
-      FeedBack: "Great Job, would recommend ! Without doubt one of the most talented programmers out there.  I always go back to Ted when I'm out of my depth and he's never failed to deliver what I ask for. Smart, trustworthy and professional. You won't be disappointed.",
-    },
+    // {
+    //   name: 'Paul',
+    //   company: 'Meta',
+    //   imgUrl: images.madara,
+    //   FeedBack: 'Ted is just an awesome developer. From the start of the project, through to completion, He supported us and exceeded our expectations in every way. Not only was our experience personal and friendly, his ability to identify and present our key messages in an imaginative and creative way gave us a huge amount of confidence in him',
+    // },
+    // {
+    //   name: 'Joel',
+    //   company: 'Google',
+    //   imgUrl: images.gojo,
+    //   FeedBack: "Ted was recommended to me by a mutual friend as a web developer. We discussed my requirements fully before going ahead with anything and he put together a package for me that met all my needs. I never felt pushed or pressured and the whole thing from start to finish was stress free and supportive. The website when completed completely surpassed all my expectations and I am totally thrilled. Any tweaks and edits that were needed were minimal and done quickly.",
+    // },
+    // {
+    //   name: 'Cho',
+    //   company: 'Amazo',
+    //   imgUrl: images.bruce,
+    //   FeedBack: "Ted is just an awesome developer,and he's a great help managing a very out of date website. Everything we ask him to do is done quickly and efficiently, we would be lost without him.",
+    // },
+    // {
+    //   name: 'Yann',
+    //   company: 'Netflix',
+    //   imgUrl: images.hashirama,
+    //   FeedBack: "Great Job, would recommend ! Without doubt one of the most talented programmers out there.  I always go back to Ted when I'm out of my depth and he's never failed to deliver what I ask for. Smart, trustworthy and professional. You won't be disappointed.",
+    // },
   ]
 
   const brand = [
