@@ -35,6 +35,16 @@ const Skills = () => {
       icon: images.graphql,
       bgColor: '#edf2f8',
     },
+    {
+      name: 'TypeScript',
+      icon: images.typescript,
+      bgColor: '#edf2f8',
+    },
+    {
+      name: 'Next Js',
+      icon: images.next,
+      bgColor: '#edf2f8',
+    },
   ];
 
   
